@@ -1,5 +1,5 @@
-import React from 'react';
-import InchToCm from './InchToCm'
+import React from 'react'
+import ZipInput from './ZipInput'
 
 class App extends React.Component {
   constructor (props) {
@@ -10,10 +10,11 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <InchToCm />
+        <ZipInput />
       </div>
     )
   }
+  componentDidMount () {}
 }
 
 export default App;
